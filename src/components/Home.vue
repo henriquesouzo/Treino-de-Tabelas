@@ -31,61 +31,62 @@
       </tfoot>
     </table>
 
-    <table class="tabela2">
-      <thead>
-        <tr>
-          <th>Grupo</th>
-          <th>Nomes</th>
-          <th colspan="3">Filmes</th>
-        </tr>
-      </thead>
-
-      <tbody>
-        <tr>
-          <th rowspan="3">Mulheres</th>
-          <td>Ana Maria Santos</td>
-          <td>Alien</td>
-          <td>Rambo</td>
-          <td>Vingadores</td>
-        </tr>
-
-        <tr>
-          <td>Beatriz Sousa</td>
-          <td>Hulk</td>
-          <td>Inception</td>
-          <td>Batman</td>
-        </tr>
-
-        <tr>
-          <td>Cláudia Melo</td>
-          <td>Oblivion</td>
-          <td>Matrix</td>
-          <td>Big Hero</td>
-        </tr>
-
-        <tr>
-          <th rowspan="3">Homens</th>
-          <td>Bruno Mendonça</td>
-          <td>Intocáveis</td>
-          <td>Amnésia</td>
-          <td>Gladiador</td>
-        </tr>
-
-        <tr>
-          <td>Daniel Lourenço</td>
-          <td>Wall-E</td>
-          <td>Oldboy</td>
-          <td>Dangal</td>
-        </tr>
-
-        <tr>
-          <td>Fabiano Mota</td>
-          <td>Star Wars 5</td>
-          <td>Taxi Driver</td>
-          <td>Toy Story</td>
-        </tr>
-      </tbody>
-    </table>    
+    <div id="reponsivaTable">
+      <table class="tabela2">
+        <colgroup> <!-- serve para modificar todos que estão abaixo desta coluna, no caso vou mudar a cor de todos -->
+          <col class="colunaGrupo"> <!-- modifiquei a primeira coluna, se quiser mais colunas é so por mais desses col com uma classe diferente -->
+          <col class="colunaNomesFilmes" span="4"> <!-- vou modificar quatro colunas sequenciais igual -->
+        </colgroup>
+      
+        <thead>
+          <tr>
+            <th>Grupo</th>
+            <th>Nomes</th>
+            <th colspan="3">Filmes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th rowspan="3">Mulheres</th>
+            <td>Ana Maria Santos</td>
+            <td>Alien</td>
+            <td>Rambo</td>
+            <td>Vingadores</td>
+          </tr>
+          <tr>
+            <td>Beatriz Sousa</td>
+            <td>Hulk</td>
+            <td>Inception</td>
+            <td>Batman</td>
+          </tr>
+          <tr>
+            <td>Cláudia Melo</td>
+            <td>Oblivion</td>
+            <td>Matrix</td>
+            <td>Big Hero</td>
+          </tr>
+          <tr>
+            <th rowspan="3">Homens</th>
+            <td>Bruno Mendonça</td>
+            <td>Intocáveis</td>
+            <td>Amnésia</td>
+            <td>Gladiador</td>
+          </tr>
+          <tr>
+            <td>Daniel Lourenço</td>
+            <td>Wall-E</td>
+            <td>Oldboy</td>
+            <td>Dangal</td>
+          </tr>
+          <tr>
+            <td>Fabiano Mota</td>
+            <td>Star Wars 5</td>
+            <td>Taxi Driver</td>
+            <td>Toy Story</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
     
   </div>
 </template>
@@ -172,5 +173,18 @@ export default {
   .tabela2{
     margin-top: 70px;
     margin-bottom: 30px;
+    width: 700px;
+  }
+
+  #reponsivaTable{
+    overflow-x: auto; /* para deixar responsiva a tabela na horizontal que é essencial */
+  }
+
+  .colunaGrupo{
+    background-color: aquamarine;
+  }
+
+  .colunaNomesFilmes{
+    background-color: #cecaca;
   }
 </style>
