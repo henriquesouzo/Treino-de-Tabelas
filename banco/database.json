@@ -1,0 +1,54 @@
+{
+    "habitantes": [
+        {
+            "Estado" : "São Paulo",
+            "Populacao" : "46 024 937",            
+            "id": 1
+        },
+        {
+            "Estado" : "Minas Gerais",
+            "Populacao" : "20 732 660",            
+            "id": 2
+        },
+        {
+            "Estado" : "Rio de Janeiro",
+            "Populacao" : "16 615 526",            
+            "id": 3
+        },
+        {
+            "Estado" : "Bahia",
+            "Populacao" : "14 016 906",            
+            "id": 4
+        },
+        {
+            "Estado" : "Paraná",
+            "Populacao" : "11 835 379",            
+            "id": 5
+        },
+        {
+            "Estado" : "Rio Grande do Sul",
+            "Populacao" : "11 088 065",            
+            "id": 6
+        },
+        {
+            "Estado" : "Pernambuco",
+            "Populacao" : "9 051 113",            
+            "id": 7
+        },
+        {
+            "Estado" : "Ceará",
+            "Populacao" : "8 936 431",            
+            "id": 8
+        },
+        {
+            "Estado" : "Pará",
+            "Populacao" : "8 442 962",            
+            "id": 9
+        },
+        {
+            "Estado" : "Santa Catarina",
+            "Populacao" : "7 762 154",            
+            "id": 10
+        }
+    ]    
+}
