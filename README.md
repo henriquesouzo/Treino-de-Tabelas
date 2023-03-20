@@ -1,11 +1,11 @@
 # treino-tabelas
 
 <div align="center">
-<img src="https://github.com/henriquesouzo/curso-html/blob/gh-pages/src/publico/imagens/topo.jpg" />
+<img src="https://github.com/henriquesouzo/treino-tabelas/blob/main/src/assets/Tabela1.jpg" />
 </div> <br>
 
 <div align="center">
-<img src="https://github.com/henriquesouzo/curso-html/blob/gh-pages/src/publico/imagens/topo.jpg" />
+<img src="https://github.com/henriquesouzo/treino-tabelas/blob/main/src/assets/Tabela%202.jpg" />
 </div> <br>
 
 ## Project setup
